@@ -1,0 +1,28 @@
+//
+//  KNPaypp.pch
+//  KNPayppExample
+//
+//  Created by 吴申超 on 2017/4/5.
+//  Copyright © 2017年 DengYun. All rights reserved.
+//
+
+#ifndef KNPaypp_pch
+#define KNPaypp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#define KN_PayCodeWX @"wx" // 微信
+#define KN_PayCodeAlipay @"alipay" // 支付宝
+#define KN_AlpiyUrlScheme  @"KNPayUrl001"
+#define KN_WXUrlScheme  @"wxa3d2b87d794df255"
+
+
+#endif
+
+#endif /* KNPaypp_pch */
