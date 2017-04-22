@@ -20,7 +20,7 @@
 #define KN_PayCodeWX @"wx" // 微信
 #define KN_PayCodeAlipay @"alipay" // 支付宝
 #define KN_AlpiyUrlScheme  @"KNPayUrl001"
-#define KN_WXUrlScheme  @"wxa3d2b87d794df255"
+#define KN_WXUrlScheme  @""
 
 
 #endif

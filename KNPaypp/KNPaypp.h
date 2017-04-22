@@ -6,7 +6,7 @@
 //  Copyright © 2017年 DengYun. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h> 
 
 typedef NS_ENUM(NSUInteger, KNPayppErrorOption) {
     KNPayppErrInvalidCharge,
@@ -35,6 +35,12 @@ typedef void (^KNPayppCompletion)(NSString *result, KNPayppError *error);
 
 @interface KNPaypp : NSObject
 
+
+/**
+ 初始化完成应用程序时调用
+
+ @param appId 微信appid
+ */
 + (BOOL)registerWxApp:(NSString *)appId;
 
 /**
