@@ -16,15 +16,11 @@ typedef NS_ENUM(NSUInteger, KNPayppErrorOption) {
     KNPayppErrWxAppNotSupported,
     KNPayppErrCancelled,
     KNPayppErrUnknownCancel,
-    KNPayppErrViewControllerIsNil,
-    KNPayppErrTestmodeNotifyFailed,
-    KNPayppErrChannelReturnFail,
     KNPayppErrConnectionError,
-    KNPayppErrUnknownError,
-    KNPayppErrActivation,
     KNPayppErrRequestTimeOut,
-    KNPayppErrProcessing,
-    KNPayppErrQqNotInstalled,
+    KNPayppErrUnknownError,
+    KNPayppErrUnknownResult,
+    KNPayppErrViewControllerIsNil,
 };
 
 @interface KNPayppError : NSObject
@@ -39,6 +35,7 @@ typedef void (^KNPayppCompletion)(NSString *result, KNPayppError *error);
 
 @interface KNPaypp : NSObject
 
++ (BOOL)registerWxApp:(NSString *)appId;
 
 /**
  支付调用接口(支付宝／微信)
@@ -52,6 +49,11 @@ typedef void (^KNPayppCompletion)(NSString *result, KNPayppError *error);
        withCompletion:(KNPayppCompletion)completion;
 
 
+
++ (void)createPayment:(id)charge
+         appURLScheme:(NSString *)scheme
+           controller:(UIViewController *)controller
+       withCompletion:(KNPayppCompletion)completion;
 
 /**
  回掉结果接口

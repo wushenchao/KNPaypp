@@ -32,6 +32,7 @@
 		7CC934611E94BF0A007B2852 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CC934591E94BF0A007B2852 /* README.txt */; };
 		7CC934661E94C9F2007B2852 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC934651E94C9F2007B2852 /* Security.framework */; };
 		7CC934681E94CA08007B2852 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC934671E94CA08007B2852 /* libsqlite3.0.tbd */; };
+		7CE941081E972E6500E1B60D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE941071E972E6500E1B60D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		7CC934641E94C273007B2852 /* KNPaypp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNPaypp.pch; sourceTree = "<group>"; };
 		7CC934651E94C9F2007B2852 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7CC934671E94CA08007B2852 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7CE941071E972E6500E1B60D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE941081E972E6500E1B60D /* WebKit.framework in Frameworks */,
 				7CC934681E94CA08007B2852 /* libsqlite3.0.tbd in Frameworks */,
 				7CC934661E94C9F2007B2852 /* Security.framework in Frameworks */,
 				7CC934501E949F91007B2852 /* CoreMotion.framework in Frameworks */,
@@ -173,6 +176,7 @@
 		7CC9343A1E949F59007B2852 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CE941071E972E6500E1B60D /* WebKit.framework */,
 				7CC934671E94CA08007B2852 /* libsqlite3.0.tbd */,
 				7CC934651E94C9F2007B2852 /* Security.framework */,
 				7CC9344F1E949F91007B2852 /* CoreMotion.framework */,
