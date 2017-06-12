@@ -6,7 +6,7 @@
 //  Copyright © 2017年 DengYun. All rights reserved.
 //
 
-#import <Foundation/Foundation.h> 
+#import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, KNPayppErrorOption) {
     KNPayppErrInvalidCharge,
@@ -35,17 +35,11 @@ typedef void (^KNPayppCompletion)(NSString *result, KNPayppError *error);
 
 @interface KNPaypp : NSObject
 
-
-/**
- 初始化完成应用程序时调用
-
- @param appId 微信appid
- */
 + (BOOL)registerWxApp:(NSString *)appId;
 
 /**
  支付调用接口(支付宝／微信)
-
+ 
  @param charge 支付charge
  @param scheme URL Scheme，支付宝渠道回调需要
  @param completion 支付结果回调
@@ -63,7 +57,7 @@ typedef void (^KNPayppCompletion)(NSString *result, KNPayppError *error);
 
 /**
  回掉结果接口
-
+ 
  @param url 结果url
  @param completion 支付结果回掉
  @return 当无法处理 URL 或者 URL 格式不正确时，会返回 NO

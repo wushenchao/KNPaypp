@@ -168,7 +168,7 @@
 /**
  支付宝支付错误处理
  @param resultDic 回掉结果
- @return  错误
+ @return
  */
 - (KNPayppError *)aliPayError:(NSDictionary *)resultDic {
     NSLog(@"reslut = %@",resultDic);
