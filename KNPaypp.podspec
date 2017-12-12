@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "KNPaypp", "KNPaypp/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-  # s.default_subspec = 'Core', 'Alipay'
+  s.default_subspec = 'AliPay'
   # # s.public_header_files = "Classes/**/*.h"
   # # s.frameworks = "CFNetwork", "SystemConfiguration", 'Security'
 
@@ -106,17 +106,17 @@ Pod::Spec.new do |s|
   #   core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   # end
 
-  # s.subspec 'Alipay' do |ss|
-  #   ss.dependency 'Pingpp/Core'
-  #   ss.vendored_libraries = 'lib/AliPay/*.a'
-  #   ss.ios.vendored_frameworks = 'lib/Alipay/AlipaySDK.framework'
-  #   ss.resource = 'lib/Alipay/AlipaySDK.bundle'
-  #   ss.frameworks = 'CoreMotion', 'CoreTelephony'
-  # end
+  s.subspec 'AliPay' do |ss|
+    ss.vendored_libraries = 'KNPaypp/lib/AliPay/*.a'
+    ss.ios.vendored_frameworks = 'lib/AliPay/AlipaySDK.framework'
+    ss.resource = 'KNPaypp/lib/AliPay/AlipaySDK.bundle'
+    ss.frameworks = 'CoreMotion', 'CoreTelephony'
+  end
 
-  # s.subspec 'Wx' do |ss|
-  #   ss.dependency 'KNPaypp/lib'
-  # end
+  s.subspec 'Wx' do |ss|
+    ss.vendored_libraries = 'KNPaypp/lib/WXPay/*.a'
+    ss.dependency = 'KNPaypp/lib/WXPay'
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
