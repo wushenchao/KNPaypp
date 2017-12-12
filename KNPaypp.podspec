@@ -93,26 +93,30 @@ Pod::Spec.new do |s|
   s.source_files  = "KNPaypp", "KNPaypp/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   # s.default_subspec = 'Core', 'Alipay'
-  # s.public_header_files = "Classes/**/*.h"
-  s.frameworks = "CFNetwork", "SystemConfiguration", 'Security'
+  # # s.public_header_files = "Classes/**/*.h"
+  # # s.frameworks = "CFNetwork", "SystemConfiguration", 'Security'
 
-  s.subspec 'Core' do |core|
-    core.frameworks = 'CFNetwork', 'SystemConfiguration', 'Security'
-    core.ios.library = 'c++', 'stdc++', 'z'
-    core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-  end
+  # s.subspec 'Core' do |core|
+  #   core.source_files = 'lib/*.h', 'lib/Dependencies/Network/*.h'
+  #   core.public_header_files = 'lib/*.h', 'lib/Dependencies/Network/*.h'
+  #   core.vendored_libraries = 'lib/*.a', 'lib/Dependencies/Network/*.a'
+  #   core.resource = 'lib/*.bundle'
+  #   core.frameworks = 'CFNetwork', 'SystemConfiguration', 'Security'
+  #   core.ios.library = 'c++', 'stdc++', 'z'
+  #   core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  # end
 
-  s.subspec 'Alipay' do |ss|
-    ss.vendored_libraries = 'lib/Alipay/*.a'
-    ss.ios.vendored_frameworks = 'lib/Alipay/AlipaySDK.framework'
-    ss.resource = 'lib/Alipay/AlipaySDK.bundle'
-    ss.frameworks = 'CoreMotion', 'CoreTelephony'
-    ss.dependency 'KNPaypp/Core'
-  end
+  # s.subspec 'Alipay' do |ss|
+  #   ss.dependency 'Pingpp/Core'
+  #   ss.vendored_libraries = 'lib/AliPay/*.a'
+  #   ss.ios.vendored_frameworks = 'lib/Alipay/AlipaySDK.framework'
+  #   ss.resource = 'lib/Alipay/AlipaySDK.bundle'
+  #   ss.frameworks = 'CoreMotion', 'CoreTelephony'
+  # end
 
-  s.subspec 'Wx' do |ss|
-    ss.dependency 'KNPaypp/Core'
-  end
+  # s.subspec 'Wx' do |ss|
+  #   ss.dependency 'KNPaypp/lib'
+  # end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
