@@ -115,7 +115,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Wx' do |ss|
     ss.vendored_libraries = 'KNPaypp/lib/WXPay/*.a'
-    ss.dependency = 'KNPaypp/lib/WXPay'
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
