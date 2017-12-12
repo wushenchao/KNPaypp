@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KNPaypp"
-  s.version      = "0.1.1"
-  s.summary      = "支付"
+  s.version      = "0.2.0"
+  s.summary      = "pay"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -91,9 +91,26 @@ Pod::Spec.new do |s|
 
   s.source_files  = "KNPaypp", "KNPaypp/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-
+  s.default_subspec = 'Core', 'Alipay'
   # s.public_header_files = "Classes/**/*.h"
 
+  s.subspec 'Core' do |core|
+    core.frameworks = 'CFNetwork', 'SystemConfiguration', 'Security'
+    core.ios.library = 'c++', 'stdc++', 'z'
+    core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  end
+
+  s.subspec 'Alipay' do |ss|
+    ss.vendored_libraries = 'lib/Alipay/*.a'
+    ss.ios.vendored_frameworks = 'lib/Alipay/AlipaySDK.framework'
+    ss.resource = 'lib/Alipay/AlipaySDK.bundle'
+    ss.frameworks = 'CoreMotion', 'CoreTelephony'
+    ss.dependency 'KNPaypp/Core'
+  end
+
+  s.subspec 'Wx' do |ss|
+    ss.dependency 'KNPaypp/Core'
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
