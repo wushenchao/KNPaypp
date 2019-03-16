@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
 
   s.license = 'MIT'
   s.summary = 'Wx and alipay'
-  s.homepage = 'https://github.com/KNPaypp/KNPaypp'
+  s.homepage = 'https://github.com/wushenchao/KNPaypp'
   s.author = { '不知是哪个号' => '625574612@qq.com' }
-  s.source = { :git => 'https://github.com/KNPaypp/KNPaypp.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/wushenchao/KNPaypp.git', :tag => s.version.to_s }
 
-  s.description = 'Wx and alipay'
+  s.description = 'Simple wx and alipay'
 
   s.requires_arc = true
   s.framework = 'UIKit'
