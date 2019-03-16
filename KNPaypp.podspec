@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'KNPaypp'
-  s.version = '0.0.1'
+  s.version = '0.1.0'
 
   s.osx.deployment_target = '10.9'
   s.ios.deployment_target = '7.0'
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'KNPaypp' do |core|
     core.source_files = 'KNPaypp/*.{h,m}'
-    mk.framework = 'UIKit'
+    core.framework = 'UIKit'
   end
 end
