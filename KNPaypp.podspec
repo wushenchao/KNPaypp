@@ -8,15 +8,15 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.license = 'MIT'
-  s.summary = ''
+  s.summary = 'Wx and alipay'
   s.homepage = 'https://github.com/KNPaypp/KNPaypp'
   s.author = { '不知是哪个号' => '625574612@qq.com' }
   s.source = { :git => 'https://github.com/KNPaypp/KNPaypp.git', :tag => s.version.to_s }
 
-  s.description = ''
+  s.description = 'Wx and alipay'
 
   s.requires_arc = true
-  s.framework = 'ImageIO'
+  s.framework = 'UIKit'
   
   s.default_subspec = 'KNPaypp'
 
