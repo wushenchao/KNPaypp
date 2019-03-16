@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C136B071EEEBA7A00B80747 /* KNPaypp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C136B061EEEBA7A00B80747 /* KNPaypp.m */; };
-		7C136B121EEEBA8500B80747 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C136B0A1EEEBA8500B80747 /* AlipaySDK.bundle */; };
-		7C136B131EEEBA8500B80747 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C136B0B1EEEBA8500B80747 /* AlipaySDK.framework */; };
-		7C136B141EEEBA8500B80747 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C136B0D1EEEBA8500B80747 /* libWeChatSDK.a */; };
-		7C136B151EEEBA8500B80747 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C136B0E1EEEBA8500B80747 /* README.txt */; };
+		7C58D345223CF6C1009D182C /* KNPaypp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C58D339223CF6C1009D182C /* KNPaypp.m */; };
+		7C58D346223CF6C1009D182C /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C58D33C223CF6C1009D182C /* AlipaySDK.bundle */; };
+		7C58D347223CF6C1009D182C /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C58D33D223CF6C1009D182C /* AlipaySDK.framework */; };
+		7C58D348223CF6C1009D182C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C58D341223CF6C1009D182C /* README.txt */; };
+		7C58D349223CF6C1009D182C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C58D343223CF6C1009D182C /* libWeChatSDK.a */; };
 		7CC934021E949AC4007B2852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC934011E949AC4007B2852 /* main.m */; };
 		7CC934051E949AC4007B2852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC934041E949AC4007B2852 /* AppDelegate.m */; };
 		7CC934081E949AC4007B2852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC934071E949AC4007B2852 /* ViewController.m */; };
@@ -46,15 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C136B051EEEBA7A00B80747 /* KNPaypp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPaypp.h; sourceTree = "<group>"; };
-		7C136B061EEEBA7A00B80747 /* KNPaypp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPaypp.m; sourceTree = "<group>"; };
-		7C136B0A1EEEBA8500B80747 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		7C136B0B1EEEBA8500B80747 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		7C136B0D1EEEBA8500B80747 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		7C136B0E1EEEBA8500B80747 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		7C136B0F1EEEBA8500B80747 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		7C136B101EEEBA8500B80747 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		7C136B111EEEBA8500B80747 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		7C58D339223CF6C1009D182C /* KNPaypp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPaypp.m; sourceTree = "<group>"; };
+		7C58D33C223CF6C1009D182C /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		7C58D33D223CF6C1009D182C /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		7C58D33F223CF6C1009D182C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		7C58D340223CF6C1009D182C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		7C58D341223CF6C1009D182C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		7C58D342223CF6C1009D182C /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		7C58D343223CF6C1009D182C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		7C58D344223CF6C1009D182C /* KNPaypp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPaypp.h; sourceTree = "<group>"; };
 		7CC933FD1E949AC4007B2852 /* KNPayppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNPayppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC934011E949AC4007B2852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CC934031E949AC4007B2852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 			files = (
 				7CE941081E972E6500E1B60D /* WebKit.framework in Frameworks */,
 				7CC934681E94CA08007B2852 /* libsqlite3.0.tbd in Frameworks */,
-				7C136B141EEEBA8500B80747 /* libWeChatSDK.a in Frameworks */,
+				7C58D349223CF6C1009D182C /* libWeChatSDK.a in Frameworks */,
 				7CC934661E94C9F2007B2852 /* Security.framework in Frameworks */,
 				7CC934501E949F91007B2852 /* CoreMotion.framework in Frameworks */,
 				7CC9344E1E949F8C007B2852 /* CFNetwork.framework in Frameworks */,
@@ -102,7 +102,7 @@
 				7CC934461E949F74007B2852 /* CoreText.framework in Frameworks */,
 				7CC934441E949F6F007B2852 /* QuartzCore.framework in Frameworks */,
 				7CC934421E949F6A007B2852 /* CoreTelephony.framework in Frameworks */,
-				7C136B131EEEBA8500B80747 /* AlipaySDK.framework in Frameworks */,
+				7C58D347223CF6C1009D182C /* AlipaySDK.framework in Frameworks */,
 				7CC934401E949F64007B2852 /* SystemConfiguration.framework in Frameworks */,
 				7CC9343E1E949F5F007B2852 /* libz.tbd in Frameworks */,
 				7CC9343C1E949F59007B2852 /* libc++.tbd in Frameworks */,
@@ -119,43 +119,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C136B041EEEBA7A00B80747 /* KNPaypp */ = {
+		7C58D338223CF6C1009D182C /* KNPaypp */ = {
 			isa = PBXGroup;
 			children = (
-				7C136B051EEEBA7A00B80747 /* KNPaypp.h */,
-				7C136B061EEEBA7A00B80747 /* KNPaypp.m */,
+				7C58D344223CF6C1009D182C /* KNPaypp.h */,
+				7C58D339223CF6C1009D182C /* KNPaypp.m */,
+				7C58D33A223CF6C1009D182C /* lib */,
 			);
-			name = KNPaypp;
-			path = ../KNPaypp;
+			path = KNPaypp;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C58D33A223CF6C1009D182C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7C58D33B223CF6C1009D182C /* AliPay */,
+				7C58D33E223CF6C1009D182C /* WXPay */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
-		7C136B081EEEBA8500B80747 /* lib */ = {
+		7C58D33B223CF6C1009D182C /* AliPay */ = {
 			isa = PBXGroup;
 			children = (
-				7C136B091EEEBA8500B80747 /* AliPay */,
-				7C136B0C1EEEBA8500B80747 /* WXPay */,
-			);
-			name = lib;
-			path = ../lib;
-			sourceTree = "<group>";
-		};
-		7C136B091EEEBA8500B80747 /* AliPay */ = {
-			isa = PBXGroup;
-			children = (
-				7C136B0A1EEEBA8500B80747 /* AlipaySDK.bundle */,
-				7C136B0B1EEEBA8500B80747 /* AlipaySDK.framework */,
+				7C58D33C223CF6C1009D182C /* AlipaySDK.bundle */,
+				7C58D33D223CF6C1009D182C /* AlipaySDK.framework */,
 			);
 			path = AliPay;
 			sourceTree = "<group>";
 		};
-		7C136B0C1EEEBA8500B80747 /* WXPay */ = {
+		7C58D33E223CF6C1009D182C /* WXPay */ = {
 			isa = PBXGroup;
 			children = (
-				7C136B0D1EEEBA8500B80747 /* libWeChatSDK.a */,
-				7C136B0E1EEEBA8500B80747 /* README.txt */,
-				7C136B0F1EEEBA8500B80747 /* WechatAuthSDK.h */,
-				7C136B101EEEBA8500B80747 /* WXApi.h */,
-				7C136B111EEEBA8500B80747 /* WXApiObject.h */,
+				7C58D33F223CF6C1009D182C /* WXApi.h */,
+				7C58D340223CF6C1009D182C /* WXApiObject.h */,
+				7C58D341223CF6C1009D182C /* README.txt */,
+				7C58D342223CF6C1009D182C /* WechatAuthSDK.h */,
+				7C58D343223CF6C1009D182C /* libWeChatSDK.a */,
 			);
 			path = WXPay;
 			sourceTree = "<group>";
@@ -163,8 +162,6 @@
 		7CC933F41E949AC4007B2852 = {
 			isa = PBXGroup;
 			children = (
-				7C136B081EEEBA8500B80747 /* lib */,
-				7C136B041EEEBA7A00B80747 /* KNPaypp */,
 				7CC933FF1E949AC4007B2852 /* KNPayppExample */,
 				7CC934191E949AC4007B2852 /* KNPayppExampleTests */,
 				7CC933FE1E949AC4007B2852 /* Products */,
@@ -193,6 +190,7 @@
 				7CC9340E1E949AC4007B2852 /* LaunchScreen.storyboard */,
 				7CC934111E949AC4007B2852 /* Info.plist */,
 				7CC934641E94C273007B2852 /* KNPaypp.pch */,
+				7C58D338223CF6C1009D182C /* KNPaypp */,
 				7CC934001E949AC4007B2852 /* Supporting Files */,
 			);
 			path = KNPayppExample;
@@ -322,9 +320,9 @@
 			files = (
 				7CC934101E949AC4007B2852 /* LaunchScreen.storyboard in Resources */,
 				7CC9340D1E949AC4007B2852 /* Assets.xcassets in Resources */,
-				7C136B121EEEBA8500B80747 /* AlipaySDK.bundle in Resources */,
+				7C58D346223CF6C1009D182C /* AlipaySDK.bundle in Resources */,
 				7CC9340B1E949AC4007B2852 /* Main.storyboard in Resources */,
-				7C136B151EEEBA8500B80747 /* README.txt in Resources */,
+				7C58D348223CF6C1009D182C /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +343,7 @@
 				7CC934081E949AC4007B2852 /* ViewController.m in Sources */,
 				7CC934051E949AC4007B2852 /* AppDelegate.m in Sources */,
 				7CC934021E949AC4007B2852 /* main.m in Sources */,
-				7C136B071EEEBA7A00B80747 /* KNPaypp.m in Sources */,
+				7C58D345223CF6C1009D182C /* KNPaypp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +483,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KNPayppExample/KNPaypp/AliPay",
+					"$(PROJECT_DIR)/KNPaypp/lib/AliPay",
 				);
 				GCC_PREFIX_HEADER = KNPayppExample/KNPaypp.pch;
 				INFOPLIST_FILE = KNPayppExample/Info.plist;
@@ -492,6 +491,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KNPayppExample/KNPaypp/WXPay",
+					"$(PROJECT_DIR)/KNPaypp/lib/WXPay",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = idengyun.KNPayppExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,6 +506,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KNPayppExample/KNPaypp/AliPay",
+					"$(PROJECT_DIR)/KNPaypp/lib/AliPay",
 				);
 				GCC_PREFIX_HEADER = KNPayppExample/KNPaypp.pch;
 				INFOPLIST_FILE = KNPayppExample/Info.plist;
@@ -513,6 +514,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KNPayppExample/KNPaypp/WXPay",
+					"$(PROJECT_DIR)/KNPaypp/lib/WXPay",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = idengyun.KNPayppExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
